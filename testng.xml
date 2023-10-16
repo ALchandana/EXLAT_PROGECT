@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Exlat_Parellel_Test">
+    <classes>
+      <class name="EXLAT_PACKAGE.SauceAddToCartTest"/>
+      <class name="EXLAT_PACKAGE.SauceLogOut"/>
+      <class name="EXLAT_PACKAGE.SauceRemoveFromCart"/>
+      <class name="EXLAT_PACKAGE.Sauce_login"/>
+    </classes>
+  </test> <!-- Exlat_Parellel_Test -->
+</suite> <!-- Suite -->
